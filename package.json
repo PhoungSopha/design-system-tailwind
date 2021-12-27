@@ -1,0 +1,35 @@
+{
+  "name": "design-system-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",
+    "format": "prettier -w -u .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "vue": "^3.2.23"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.1",
+    "@storybook/addon-essentials": "^6.4.1",
+    "@storybook/addon-links": "^6.4.1",
+    "@storybook/vue3": "^6.4.1",
+    "@vitejs/plugin-vue": "^1.10.1",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.0",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4",
+    "vue-loader": "^16.8.3"
+  }
+}

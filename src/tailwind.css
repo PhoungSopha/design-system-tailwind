@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-base {
+    /* background */
+    --color-bg-primary-lightest: theme('colors.blue.50');
+    --color-bg-primary-lighter: theme('colors.blue.300');
+    --color-bg-primary-light: theme('colors.blue.400');
+    --color-bg-primary: theme('colors.blue.500');
+    --color-bg-primary-dark: theme('colors.blue.600');
+
+    --color-bg-danger-lightest: theme('colors.red.50');
+    --color-bg-danger-lighter: theme('colors.red.300');
+    --color-bg-danger-light: theme('colors.red.400');
+    --color-bg-danger: theme('colors.red.500');
+    --color-bg-danger-dark: theme('colors.red.600');
+
+    --color-bg-success-lightest: theme('colors.green.50');
+    --color-bg-success-lighter: theme('colors.green.300');
+    --color-bg-success-light: theme('colors.green.400');
+    --color-bg-success: theme('colors.green.500');
+    --color-bg-success-dark: theme('colors.green.600');
+    
+    --color-bg-warning-lightest: theme('colors.yellow.50');
+    --color-bg-warning-lighter: theme('colors.yellow.300');
+    --color-bg-warning-light: theme('colors.yellow.400');
+    --color-bg-warning: theme('colors.yellow.500');
+    --color-bg-warning-dark: theme('colors.yellow.600');
+
+    /* text */
+    --color-text-primary: theme('colors.blue.500');
+    --color-text-danger: theme('colors.red.500');
+    --color-text-success: theme('colors.green.500');
+    --color-text-warning: theme('colors.yellow.500');
+    --color-text-inverse: theme('colors.white');
+}
